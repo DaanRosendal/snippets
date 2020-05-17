@@ -1,52 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Snippets - Daan Rosendal</title>
 
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.png" type="image/x-icon"/>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Snippets - Daan Rosendal</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha256-aAr2Zpq8MZ+YA/D6JtRD3xtrwpEz2IqOS+pWD/7XKIw=" crossorigin="anonymous" />
-</head>
-<body class="a">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-                <div class="jumbotron mt-3 mb-3">
-                    <h1 class="display-4">Snippets <img src="favicon.png" height="50px"></h1>
-                    <p class="lead">Voor hergebruik van sublieme code.</p>
-                </div>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+              integrity="sha256-aAr2Zpq8MZ+YA/D6JtRD3xtrwpEz2IqOS+pWD/7XKIw=" crossorigin="anonymous" />
 
-                <!-- Bootstrapious Sidebars -->
-                <div class="list-group mb-3">
-                    <a target="_blank" href="https://bootstrapious.com/p/bootstrap-sidebar" class="list-group-item list-group-item-action flex-column align-items-start active">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">Bootstrapious sidebars</h5>
-                            <small>17 mei 2020</small>
-                        </div>
-                        <small>Bootstrap 4, Handig voor: admin panel</small>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">List group item heading</h5>
-                        </div>
-                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                        <small class="text-muted">Donec id elit non mi porta.</small>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">List group item heading</h5>
-                        </div>
-                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                        <small class="text-muted">Donec id elit non mi porta.</small>
-                    </a>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Favicon -->
+        <link rel="icon" href="favicon.png" type="image/x-icon"/>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+              integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    </head>
+
+
+    <body class="a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                    <div class="jumbotron mt-3 mb-3">
+                        <h1 class="display-4">Snippets <img src="favicon.png" height="50px"></h1>
+                        <p class="lead">For reuse of sublime code.</p>
+
+                        <a target="_blank" href="https://github.com/DaanRosendal/snippets" class="text-dark"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+
+                    <!-- Bootstrapious Sidebars -->
+                    <div class="list-group mb-3">
+                        <a target="_blank" href="https://bootstrapious.com/p/bootstrap-sidebar" title="Source"
+                           class="list-group-item list-group-item-action flex-column align-items-start active">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Bootstrapious Sidebars</h5>
+                                <small><span class="align-middle">Bootstrap 4</span></small>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://snippets.daanrosendal.com/bootstrapious-sidebars/fixed/"
+                           class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Fixed</h5>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://snippets.daanrosendal.com/bootstrapious-sidebars/fixed-transparent/"
+                           class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Fixed Transparent</h5>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://snippets.daanrosendal.com/bootstrapious-sidebars/static/"
+                           class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Static</h5>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://snippets.daanrosendal.com/bootstrapious-sidebars/static-partially-collapsing/"
+                           class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Static Partially Collapsing</h5>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://snippets.daanrosendal.com/bootstrapious-sidebars/static-fancy/"
+                           class="list-group-item list-group-item-action flex-column align-items-start">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Static Fancy</h5>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</body>
+    </body>
+
 </html>
