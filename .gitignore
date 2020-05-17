@@ -1,0 +1,10 @@
+.htaccess
+favicon.png
+.idea/
+
+#Bootstrapious
+/bootstrapious-sidebars/static-partially-collapsing/.htaccess
+/bootstrapious-sidebars/static-fancy/.htaccess
+/bootstrapious-sidebars/static/.htaccess
+/bootstrapious-sidebars/fixed-transparent/.htaccess
+/bootstrapious-sidebars/fixed/.htaccess
