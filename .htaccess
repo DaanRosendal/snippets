@@ -1,0 +1,6 @@
+DirectoryIndex index.html
+RewriteEngine On
+RewriteRule ^home$ index
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^bootstrapious-sidebars/fixed/(.*)$ bootstrapious-sidebars/fixed/index.html [L]
