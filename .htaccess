@@ -1,4 +1,5 @@
 DirectoryIndex index.html
+ErrorDocument 404 https://daanrosendal.com/404
 RewriteEngine On
 RewriteRule ^home$ index
 RewriteCond %{REQUEST_FILENAME} !-f
