@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Random Cats</title>
 
+    <!-- Favicon -->
+    <link rel="icon" href="cat.png">
+
     <!-- Bulma -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css" integrity="sha256-aPeK/N8IHpHsvPBCf49iVKMdusfobKo2oxF8lRruWJg=" crossorigin="anonymous" />
 
