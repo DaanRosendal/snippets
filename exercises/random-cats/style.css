@@ -18,7 +18,11 @@ h1 {
 
 @media only screen and (max-width: 999px) {
     #catPicture{
-        width: 100%;
+        width: 95%;
+    }
+
+    .button-responsive {
+        font-size: 2.5rem !important;
     }
 }
 
@@ -38,3 +42,5 @@ html {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
 }
+
+.button-responsive

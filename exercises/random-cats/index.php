@@ -20,7 +20,7 @@
 
     <!-- Button -->
     <div class="pt-4">
-        <button id="newCatButton" class="button is-primary is-rounded is-medium mb-4 center is-unselectable" onclick="getRandomCatPicture()">New Cat</button>
+        <button id="newCatButton" class="button button-responsive is-primary is-rounded is-medium mb-4 center is-unselectable" onclick="getRandomCatPicture()">New Cat</button>
     </div>
 
     <!-- Picture -->
