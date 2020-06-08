@@ -1,3 +1,6 @@
+<link rel="icon" href="https://image.flaticon.com/icons/svg/658/658404.svg"/>
+<title>Christmas Tree</title>
+
 <?php
 
 /*
