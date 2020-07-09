@@ -24,7 +24,7 @@
     </div>
 
     <!-- Picture -->
-    <img id="catPicture" alt="Picture of a cat" class="center shadow is-unselectable mb-4" src="">
+    <img id="catPicture" onload="removeIsLoading()" alt="Picture of a cat" class="center shadow is-unselectable mb-4" src="">
 
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>

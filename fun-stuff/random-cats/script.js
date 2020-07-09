@@ -12,7 +12,10 @@ function getRandomCatPicture() {
         dataType: 'json',
         success: function(result){
             $('#catPicture').attr('src', result.file);
-            $('#newCatButton').removeClass('is-loading');
         }
     });
+}
+
+function removeIsLoading(){
+    $('#newCatButton').removeClass('is-loading');
 }
